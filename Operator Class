@@ -60,8 +60,6 @@ class Sigma(Operator):
       super().__init__(y)
     if i == 3:
       super().__init__(z)
-    
-# sigma on more than one qubit
 
 class Hadamard(Operator):
   def __init__(self):
