@@ -1,3 +1,7 @@
+from math import *
+import numpy as np
+from ComplexNum import *
+
 class Algorithm():
   def __init__(self, oplist):
     self.operators = oplist 
