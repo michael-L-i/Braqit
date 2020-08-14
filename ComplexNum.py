@@ -1,3 +1,6 @@
+from math import *
+import numpy as np
+
 class ComplexNum():
   def __init__(self, re, im):
     self.re = re
