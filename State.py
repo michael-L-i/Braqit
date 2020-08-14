@@ -1,3 +1,7 @@
+import math
+import numpy as np
+from ComplexNum import *
+
 class State(object):
     def __init__(self, clist):
       if set(clist.values()) == {0} or clist == {}:
