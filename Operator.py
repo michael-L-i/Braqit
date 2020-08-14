@@ -1,3 +1,8 @@
+import math
+import numpy as np
+from State import *
+from ComplexNum import *
+
 class Operator(object):
   def __init__ (self, array):
     x = list(array.shape)
