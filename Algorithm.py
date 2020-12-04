@@ -14,3 +14,4 @@ class Algorithm():
 
   def __repr__(self):
     return "my algo"
+  
